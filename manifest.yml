@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: watson-iot-sample-kmt
+  host: watson-iot-sample-kmt
+  disk_quota: 1024M
+  services:
+  - watson-iot-sample-kmt-cloudantNoSQLDB
+  - Internet of Things Platform-kmt
